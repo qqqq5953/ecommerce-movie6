@@ -258,6 +258,7 @@ export default {
       }
     };
   },
+  inject: ['emitter'],
   computed: {
     totalAmount() {
       const total = this.cart.reduce((total, item) => {
@@ -363,6 +364,9 @@ export default {
 
         // 重新渲染畫面
         await this.getCartProduct();
+
+        // 更新 navbar cart 數量
+        this.emitter.emit('calculate-product-number', this.cart.length);
 
         // const response = await this.$http.delete(api);
         // console.log('deleteProduct', response);

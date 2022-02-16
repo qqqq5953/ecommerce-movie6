@@ -138,7 +138,7 @@
             <i
               class="bi bi-camera-reels-fill d-none text-warning me-3 fs-4"
             ></i>
-            <span>Now Playing</span>
+            <span>Now Playing Movie</span>
             <i class="bi bi-chevron-right ms-2 fs-4"></i>
           </a>
         </h2>
@@ -165,7 +165,7 @@
             <i
               class="bi bi-camera-reels-fill d-none text-warning me-3 fs-4"
             ></i>
-            <span>UpComing</span>
+            <span>UpComing Movie</span>
             <i class="bi bi-chevron-right ms-2 fs-4"></i>
           </a>
         </h2>

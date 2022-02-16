@@ -248,7 +248,7 @@ export default {
       });
       console.log('addProductToCart', response.data);
 
-      // 更新購物車產品數量
+      // 更新 navbar cart 數量
       const cartLength = await this.getCartProductNumber();
       emitter.emit('calculate-product-number', cartLength);
 
